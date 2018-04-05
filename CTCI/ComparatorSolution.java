@@ -70,6 +70,10 @@ class Player {
 
 public class ComparatorSolution {
 
+	/**
+	 * MAIN
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
@@ -106,12 +110,6 @@ amy 100
 david 100
 aakansha 75
 heraldo 50
-	 *
-	 *
-	 ** TEST INPUT 2:
-?
-	 ** OUTPUT 2:
-?
 	 *
 	 */
 }

@@ -54,9 +54,6 @@ public class BalancedBracketsSolution {
     	 *   - At the end of the string/expression if the stack is empty, return true, else return false
     	 */
 
-    	// TODO: Create my own fixed size Stack, where the size is the expression.length()/2
-    	// TODO: What will it do if string length = 1? Not sure if I need to +1 below?
-    	//int stackSize = (int)Math.floorDiv(expression.length(), 2);
 
     	// Create a char Stack for brackets
     	Stack<Character> stack = new Stack<Character>();
